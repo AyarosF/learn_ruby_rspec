@@ -12,5 +12,5 @@ def array_42(arr)
 end
 
 def magic_array(arr)
-  arr.flatten.reverse.map{|n| n * 2}.select{|n| n % 3 != 0 }.uniq.sort
+  arr.flatten.map{|n| n * 2}.select{|n| n % 3 != 0 }.uniq.sort
 end
