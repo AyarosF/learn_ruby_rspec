@@ -1,5 +1,5 @@
 def echo(word)
-  word = word
+  word 
 end
 
 def shout(word)
